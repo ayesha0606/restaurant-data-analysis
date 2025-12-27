@@ -1,183 +1,62 @@
- Restaurant Data Analysis – Power BI Dashboard
-An interactive multi-page Power BI dashboard providing insights into restaurant trends, cuisines, price ranges, ratings, delivery modes, and city-level performance.
- Project Overview
-
-This Power BI report analyzes restaurant data collected from multiple cities.
-It offers a detailed understanding of:
-
-Popular cuisines
-
-City-wise restaurant distribution
-
-Customer preferences (online delivery, table booking)
-
-Price ranges and affordability
-
-Ratings and reviews
-
-Geographic insights using maps
-
-Comparison of independent restaurants vs chains
-
-The dashboard contains multiple connected pages, providing a complete end-to-end view of the restaurant landscape.
- Repository Structure
-restaurant-data-analysis/
-│
-├── Restaurant_Dashboard.pbix          # Main Power BI dashboard (combined + interactive)
-│
-├── data/
-│   └── Dataset.csv                    # Cleaned dataset used for analysis
-│
-├── previews/                          # Screenshots of dashboard pages
-│   ├── Overview.png
-│   ├── CityAnalysis.png
-│   ├── Cuisines.png
-│   ├── GeographicAnalysis.png
-│   ├── PriceRange.png
-│   ├── OnlineDelivery.png
-│   ├── Ratings.png
-│   ├── Reviews.png
-│   ├── Votes.png
-│   ├── Chains.png
-│   └── PriceVSDelivery.png
-│
-└── README.md                          # You are here
-
- Dashboard Pages
-1️⃣ Overview Dashboard
-
-High-level summary of restaurants, cuisines, ratings, and price categories
-
-Navigation menu to access all pages
-
-2️⃣ City Analysis
-
-Restaurants by city
-
-Top localities
-
-City-level performance
-
-3️⃣ Cuisine Analysis
-
-Most popular cuisines
-
-Cuisine combinations
-
-Customer preferences
-
-4️⃣ Price Range Distribution
-
-Price category segmentation
-
-Insights on cost for two
-
-Affordability trends
-
-5️⃣ Online Delivery Analysis
-
-Restaurants offering online delivery
-
-Delivery-based rating trends
-
-Delivery preference across cities
-
-6️⃣ Restaurant Ratings
-
-Overall rating distribution
-
-Rating color and text segmentation
-
-Avg. rating patterns
-
-7️⃣ Geographic Analysis
-
-Location-based insights
-
-Lat/Long map visualization
-
-Hotspot identification
-
-8️⃣ Restaurant Chains
-
-Chain restaurants vs independent restaurants
-
-Branch count comparison
-
-9️⃣ Reviews Analysis
-
-Review trends
-
-Customer satisfaction themes
-
-🔟 Votes Analysis
-
-Popularity insights
-
-Restaurants with highest engagement
-
-1️⃣1️⃣ Price Range vs Delivery/Table Booking
-
-Customer service preference vs affordability
-
- Tools & Technologies
-
+Restaurant Data Analysis – Power BI Dashboard
+Project Summary
+This project presents an interactive, multi-page Power BI dashboard analyzing restaurant data across multiple cities to uncover customer preferences, pricing trends, delivery adoption, ratings behaviour, and geographic patterns.
+The dashboard is designed to help business stakeholders, analysts, and decision-makers understand:
+Which cuisines and price ranges perform best
+How online delivery and table booking impact ratings
+Differences between chain restaurants and independent outlets
+City-level and location-based restaurant performance
+Business Objectives
+Identify popular cuisines and restaurant categories
+Analyze price affordability vs customer engagement
+Understand the impact of online delivery and table booking
+Compare chain vs independent restaurant performance
+Provide city-level and geographic insights for expansion and competition analysis
+Key Insights
+Restaurants offering online delivery tend to have higher average ratings compared to dine-in-only restaurants.
+Mid-range price restaurants dominate the highest-rated category across major cities.
+Chain restaurants perform better in metro cities, while independent restaurants dominate Tier-2 cities.
+Certain cuisine combinations consistently receive higher votes and engagement.
+Geographic analysis reveals high-density restaurant clusters, indicating areas of intense competition.
+Dashboard Overview
+The Power BI report contains multiple connected pages for end-to-end analysis:
+Overview – High-level KPIs and navigation
+City Analysis – City-wise restaurant distribution and performance
+Cuisine Analysis – Popular cuisines and combinations
+Price Range Analysis – Cost segmentation and affordability trends
+Online Delivery Analysis – Delivery adoption and rating impact
+Ratings & Reviews – Rating distribution and customer sentiment
+Geographic Analysis – Location-based insights using maps
+Restaurant Chains – Chains vs independent restaurants
+Votes & Engagement – Popularity and customer interaction
+Price vs Delivery/Table Booking – Service preference vs affordability
+Tools & Technologies
 Power BI Desktop (MSI Version)
-
 Power Query (M Language)
-
 DAX Measures
-
 CSV Dataset
-
-Data Modeling & Visualization
- How to View the Dashboard
-🔹 Option 1 — Download the PBIX File
-
-Click on Restaurant_Dashboard.pbix
-
-Select Download raw file
-
-Open in Power BI Desktop (MSI version recommended)
-
-Use the navigation buttons to explore the pages
-
-🔹 Option 2 — View Screenshots
-
-All dashboard pages are available under the /previews folder for quick reference.
-
- File Protection
-
-The PBIX file is configured so that:
-
-Users can view pages
-
-Buttons & visuals remain interactive
-
-They cannot overwrite the original design
-
-They must save a new copy if they try to modify anything
-
-This keeps the original dashboard secure.
-
+Data Modeling & Interactive Visualization
+How to View the Dashboard
+Option 1: Power BI File
+Download Restaurant_Dashboard.pbix
+Open using Power BI Desktop (MSI version recommended)
+Use built-in navigation buttons to explore all pages
+Option 2: Dashboard Screenshots
+View all dashboard pages inside the /previews folder
 Dataset Description
-
-The dataset contains:
-
+The dataset includes:
 Restaurant ID & Name
-
-City, Locality
-
+City and Locality
 Cuisine Types
-
-Price Range, Cost for Two
-
+Price Range and Cost for Two
 Online Delivery & Table Booking Availability
-
-Latitude, Longitude
-
+Latitude & Longitude
 Aggregate Rating, Rating Text & Color
-
 Votes
-
-The dataset used for this report is located in /data/Dataset.csv.
+Dataset location: /data/Dataset.csv
+Outcome
+This project demonstrates end-to-end data analysis, including:
+Data cleaning and transformation
+KPI creation using DAX
+Multi-page dashboard design
+Insight generation for business decision-making
